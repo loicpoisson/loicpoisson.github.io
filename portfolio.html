@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Loïc Poisson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Portfolio</h1>
+        <section>
+            <button class="filter" data-category="energie">Énergie</button>
+            <button class="filter" data-category="conception">Conception mécanique</button>
+        </section>
+
+        <div class="projects">
+            <article>
+                <h2>Biodigesteur portable</h2>
+                <p>Un projet visant à réduire les déchets organiques.</p>
+                <a href="docs/biodigesteur.pdf" target="_blank" download>
+                    <img src="img/pdf-icon.png" alt="PDF" class="icon"> Télécharger le rapport
+                </a>
+            </article>
+            <article>
+                <h2>Optimisation énergétique d’un bâtiment</h2>
+                <p>Analyse thermique et réduction de la consommation.</p>
+                <a href="docs/optimisation-energetique.pdf" target="_blank" download>
+                    <img src="img/pdf-icon.png" alt="PDF" class="icon"> Télécharger l'analyse
+                </a>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loïc Poisson. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

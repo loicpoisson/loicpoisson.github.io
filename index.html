@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loïc Poisson - Accueil</title>
+    <title>Loïc Poisson - Blog & Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,19 +11,57 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="about.html">À propos</a></li>
-                <li><a href="projects.html">Projets</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Bienvenue sur mon portfolio</h1>
-        <p>Je suis Loïc Poisson, étudiant en ingénierie, passionné par l’énergie et l’innovation. Explorez mes projets et contactez-moi !</p>
+        <section class="hero">
+            <h1>Bienvenue sur mon site</h1>
+            <p>Je suis Loïc Poisson, étudiant ingénieur passionné par l’innovation et l’énergie. Découvrez mes articles et mes projets !</p>
+            <a href="contact.html" class="cta-button">Travaillons ensemble</a>
+        </section>
+
+        <section class="articles">
+            <h2>Articles récents</h2>
+            <ul>
+                <li>
+                    <a href="blog/article1.html">
+                        <h3>Comment j’ai conçu un biodigesteur portable</h3>
+                        <p>Découvrez les étapes clés de mon projet...</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog/article2.html">
+                        <h3>Mon stage au Laboratoire d’Astrophysique</h3>
+                        <p>Une collaboration enrichissante avec la NASA...</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section Témoignages (commentée) -->
+        <!--
+        <section class="testimonials">
+            <h2>Témoignages</h2>
+            <blockquote>
+                "Travailler avec Loïc a été une expérience exceptionnelle. Sa créativité et son expertise sont remarquables."
+                <footer>- Client anonyme</footer>
+            </blockquote>
+        </section>
+        -->
     </main>
+
     <footer>
+        <div class="socials">
+            <a href="https://linkedin.com/in/loicpoisson" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/loicpoisson" target="_blank">GitHub</a>
+        </div>
         <p>&copy; 2024 Loïc Poisson. Tous droits réservés.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
