@@ -33,6 +33,27 @@ main {
     padding: 20px;
 }
 
+.hero {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #003f8a;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -50,4 +71,11 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
 }
